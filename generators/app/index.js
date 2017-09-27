@@ -62,6 +62,8 @@ module.exports = Generator.extend({
   writing() {
     const elementName = this.props.elementName;
 
+    this.sourceRoot(path.join(path.dirname(this.resolved), 'template'));
+
     this.fs.copyTpl(
         `${this.templatePath()}/**/?(.)!(_)*`,
         this.destinationPath(),
