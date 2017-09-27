@@ -1,0 +1,13 @@
+{
+  "name": "generator-polymer-init-polymer-1-application",
+  "version": "1.0.0",
+  "description": "A simple Polymer 1.0 application template",
+  "main": "generators/app/index.js",
+  "repository": "git@github.com:Hackception/generator-polymer-init-polymer-1-application.git",
+  "author": "Michael Stramel <m.stramel89@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "yeoman-generator": "^1.1.1"
+  }
+}
